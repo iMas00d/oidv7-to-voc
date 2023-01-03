@@ -1,11 +1,11 @@
-# OIDv6 To VOC
+# OIDv7 To VOC
 
-Convert bounding box datasets of [Open Images Dataset v6](https://storage.googleapis.com/openimages/web/index.html) to VOC XML format.
+Convert bounding box datasets of [Open Images Dataset v7](https://storage.googleapis.com/openimages/web/index.html) to VOC XML format.
 
 ## Installation
 
 ```sh
-pip3 install oidv6-to-voc
+pip3 install oidv7-to-voc
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ oidv6-to-voc -h
 If your shell cannot find the command, try running it with:
 
 ```sh
-python3 -m oidv6_to_voc -h
+python3 -m oidv7_to_voc -h
 ```
 
 ### CLI options
@@ -29,7 +29,7 @@ To start converting, you need at least a part of the images, the class names met
 ![CSV files you need](https://user-images.githubusercontent.com/31200881/95124534-2902e600-0786-11eb-8702-4fbde2ef3aee.png)
 
 ```sh
-oidv6-to-voc <annotation-file(s).csv>
+oidv7-to-voc <annotation-file(s).csv>
              -d <class-names-file.csv> 
              --imgd <directory/to/your/images>
              --outd <your/output/diretory>
@@ -37,7 +37,7 @@ oidv6-to-voc <annotation-file(s).csv>
 
 ## About the Dataset
 
-The Open Images V6 Dataset contains 600 classes with 1900000+ images. The images are hosted on AWS, and the CSV files can be [downloaded here](https://storage.googleapis.com/openimages/web/download.html).
+The Open Images V7 Dataset contains 600 classes with 1900000+ images. The images are hosted on AWS, and the CSV files can be [downloaded here](https://storage.googleapis.com/openimages/web/download.html).
 
 To download it in full, you'll need 500+ GB of disk space. For downloading a part of the dataset only, I would recommend the [DmitryRyumin/OIDv6](https://github.com/DmitryRyumin/OIDv6) tool.
 
