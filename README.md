@@ -43,4 +43,4 @@ To download it in full, you'll need 500+ GB of disk space. For downloading a par
 
 ## Credit
 
-This repo is forked from [AtriSaxena/OIDv4_to_VOC](https://github.com/AtriSaxena/OIDv4_to_VOC).
+This repo is forked from [chuangzhu/oidv6-to-voc](https://github.com/chuangzhu/oidv6-to-voc).
