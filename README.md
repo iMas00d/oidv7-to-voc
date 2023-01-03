@@ -13,7 +13,7 @@ pip3 install oidv7-to-voc
 Once installed, you should be able to run it directly:
 
 ```sh
-oidv6-to-voc -h
+oidv7-to-voc -h
 ```
 
 If your shell cannot find the command, try running it with:
